@@ -1,0 +1,163 @@
+[
+  {
+    "display_text": "Lift-Red(+)",
+    "assigned_key": "A",
+    "id": "27fc1b15-da0b-4f26-8931-8b3a947a668f",
+    "content": "function superCoolFunction()\n  exec_bash(\"xdotool mousemove 65 956 mousedown 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 80 956 mouseUP 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 960 540  \")\nend\n\nsuperCoolFunction()",
+    "is_selected": false
+  },
+  {
+    "display_text": "Lift-Red(-)",
+    "assigned_key": "Z",
+    "id": "25447ee5-7c95-4520-ac22-2c6783a5f8c0",
+    "content": "function superCoolFunction()\n  exec_bash(\"xdotool mousemove 80 956 mousedown 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 65 976 mouseUP 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 960 540  \")\nend\n\nsuperCoolFunction()",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": "S",
+    "id": "39ce9cf5-0608-481f-b71e-ab2992b7dce4",
+    "content": "function superCoolFunction()\n  exec_bash(\"xdotool mousemove 102 956 mousedown 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 117 956 mouseUP 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 960 540  \")\nend\n\nsuperCoolFunction()",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": "X",
+    "id": "27003447-6e7a-4672-980e-2b2b57bcda90",
+    "content": "function superCoolFunction()\n  exec_bash(\"xdotool mousemove 117 956 mousedown 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 102 956 mouseUP 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 960 540  \")\nend\n\nsuperCoolFunction()",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": "D",
+    "id": "d226c893-5a4f-44e8-8be9-a7b905b61d48",
+    "content": "function superCoolFunction()\n  exec_bash(\"xdotool mousemove 140 956 mousedown 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 155 956 mouseUP 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 960 540  \")\nend\n\nsuperCoolFunction()",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": "C",
+    "id": "e7081e10-73ba-4c90-91ff-a588480b1ba7",
+    "content": "function superCoolFunction()\n  exec_bash(\"xdotool mousemove 155 956 mousedown 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 140 956 mouseUP 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 960 540  \")\nend\n\nsuperCoolFunction()",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": "E",
+    "id": "e69f2a98-c1c4-4316-9833-bc56860159ea",
+    "content": "function superCoolFunction()\n  exec_bash(\"xdotool mousemove 55 990 mousedown 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 75 990 mouseUP 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 960 540  \")\nend\n\nsuperCoolFunction()",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": "Q",
+    "id": "bdc2153e-06d6-4177-80f1-b986d71cbed1",
+    "content": "function superCoolFunction()\n  exec_bash(\"xdotool mousemove 75 990 mousedown 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 55 990 mouseUP 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 960 540  \")\nend\n\nsuperCoolFunction()",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": "F",
+    "id": "93cb0418-20bc-4030-ab33-e19eb8450c48",
+    "content": "function superCoolFunction()\n  exec_bash(\"xdotool mousemove 240 956 mousedown 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 260 956 mouseUP 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 960 540  \")\nend\n\nsuperCoolFunction()",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": "V",
+    "id": "062886df-3f36-4610-9dc9-3fe9f221edad",
+    "content": "function superCoolFunction()\n  exec_bash(\"xdotool mousemove 260 956 mousedown 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 240 956 mouseUP 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 960 540  \")\nend\n\nsuperCoolFunction()",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": "G",
+    "id": "04992c1b-3aa6-4625-8c97-d42c7abfc79f",
+    "content": "function superCoolFunction()\n  exec_bash(\"xdotool mousemove 280 956 mousedown 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 300 956 mouseUP 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 960 540  \")\nend\n\nsuperCoolFunction()",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": "B",
+    "id": "81bfb762-f642-42cd-a0a6-cf6930a19171",
+    "content": "function superCoolFunction()\n  exec_bash(\"xdotool mousemove 300 956 mousedown 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 280 956 mouseUP 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 960 540  \")\nend\n\nsuperCoolFunction()",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": "H",
+    "id": "eb6942be-656a-48f4-b1f6-977115f471ff",
+    "content": "function superCoolFunction()\n  exec_bash(\"xdotool mousemove 317 956 mousedown 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 337 956 mouseUP 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 960 540  \")\nend\n\nsuperCoolFunction()",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": "N",
+    "id": "00e40617-f145-4f0a-8861-838af2322660",
+    "content": "function superCoolFunction()\n  exec_bash(\"xdotool mousemove 337 956 mousedown 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 317 956 mouseUP 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 960 540  \")\nend\n\nsuperCoolFunction()",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": "R",
+    "id": "5afe5d22-0d07-4ba1-9097-ee7695771a04",
+    "content": "",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": "Y",
+    "id": "49a84987-be5b-486e-b8e1-b72a838f5c54",
+    "content": "",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": "J",
+    "id": "ebb74e30-7f2a-4d16-94f8-480e0d43b747",
+    "content": "function superCoolFunction()\n  exec_bash(\"xdotool mousemove 423 956 mousedown 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 428 956 mouseUP 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 960 540  \")\nend\n\nsuperCoolFunction()",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": "M",
+    "id": "4fef2c99-4a27-4a01-b5ea-e104b44fbeb0",
+    "content": "function superCoolFunction()\n  exec_bash(\"xdotool mousemove 428 956 mousedown 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 423 956 mouseUP 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 960 540  \")\nend\n\nsuperCoolFunction()",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": "K",
+    "id": "51f25227-a716-439b-a248-e0fac81dce6c",
+    "content": "function superCoolFunction()\n  exec_bash(\"xdotool mousemove 461 956 mousedown 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 466 956 mouseUP 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 960 540  \")\nend\n\nsuperCoolFunction()",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": ",",
+    "id": "e5be7f8e-f9ac-4b57-aaf3-e906b516878b",
+    "content": "function superCoolFunction()\n  exec_bash(\"xdotool mousemove 466 956 mousedown 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 461 956 mouseUP 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 960 540  \")\nend\n\nsuperCoolFunction()",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": "L",
+    "id": "9759a5e0-e659-4f72-8414-57b98476f54a",
+    "content": "function superCoolFunction()\n  exec_bash(\"xdotool mousemove 499 956 mousedown 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 504 956 mouseUP 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 960 540  \")\nend\n\nsuperCoolFunction()",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": ".",
+    "id": "222f5203-3b88-4589-8ea0-7d9a2d0117ee",
+    "content": "function superCoolFunction()\n  exec_bash(\"xdotool mousemove 504 956 mousedown 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 499 956 mouseUP 1\")\n  wait(10)\n  exec_bash(\"xdotool mousemove 960 540  \")\nend\n\nsuperCoolFunction()",
+    "is_selected": false
+  },
+  {
+    "display_text": "New Item",
+    "assigned_key": "RSHIFT",
+    "id": "e10c3c19-6776-4e95-9ae1-6e8d7c502852",
+    "content": "",
+    "is_selected": true
+  }
+]

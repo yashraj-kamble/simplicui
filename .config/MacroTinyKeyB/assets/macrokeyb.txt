@@ -1,0 +1,105 @@
+cp ~/Documents/Scripts/*.lua ~/Documents/LShift/
+
+Note :-
+# (_)px = 0.01
+
+Primaries
+
+y = 956 px
+
+lift (12)
+r =  61 73 85   A Z    
+g = 97 112 127  S X    
+b =135 150 165  D C
+
+gamma (25)
+r = 231 251 271  F V
+g = 270 290 310  G B
+b = 307 327 347  H N
+
+gain (5-1)
+r = 424 429 434  J M
+g = 462 467 472  K ,
+b = 500 505 510  L .
+
+Exposure
+
+y = 991
+
+lift (16) =  71 91   111  E Q
+gamma(30)  = 249 269  289  Y R
+gain (8) =  429 449  469  O U
+
+reset
+
+y = 822
+
+lift = 158    W
+gamma = 336   T
+gain = 513    I 
+
+
+
+y = 782
+
+temp = 176
+tint = 301
+contrast = 425
+pivot = 552
+mid/detail = 673
+
+
+y = 1029
+
+col boost = 92
+shadow = 208
+hilight = 325
+sat = 440
+hue = 556
+luma mix = 675
+
+
+Log
+
+y = 956 px
+
+shadow
+
+r = 42
+g = 92
+b = 142
+
+midtone
+
+r = 220
+g = 270
+b = 320
+
+highlights
+
+r = 398
+g = 448
+b = 498
+
+Exposure
+
+y = 991
+
+shadow = 92
+midtone = 270
+highlights = 448
+
+y = 782
+
+temp = 155
+tint = 260
+contrast = 364
+pivot = 469
+range (-) = 576
+range (+) = 673
+mid/datial = 92
+color boost = 208
+shadow = 324
+highlight = 442
+sat = 555
+hue = 671

@@ -1,0 +1,13 @@
+sudo mkdir /opt/resolve/libs/_disabled
+cd /opt/resolve/libs/
+sudo mv libgio* libglib* libgmodule* libgobject* _disabled
+
+sudo rm /opt/resolve/libs/_disabled/libglib-2.0.so*
+sudo rm /opt/resolve/libs/_disabled/libgio-2.0.so*
+sudo rm /opt/resolve/libs/_disabled/libgmodule-2.0.so*
+
+# Wayland
+__GLX_VENDOR_LIBRARY_NAME=nvidia /opt/resolve/bin/resolve
+
+# X11
+ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia /opt/resolve/bin/resolve

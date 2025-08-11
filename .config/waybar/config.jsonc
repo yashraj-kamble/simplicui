@@ -1,0 +1,51 @@
+{
+
+// Load Modules
+    "include": [
+        "~/.config/waybar/modules.jsonc"
+    ],
+
+// General Setting
+
+    "height": 27,
+    "spacing": 15, 
+    
+    
+// Order of the modules
+    "modules-left": [
+        "custom/exit",
+        "custom/battery",
+    ],
+    "modules-center": [
+        "hyprland/workspaces",
+    ],
+    "modules-right": [
+    	"keyboard-state",
+    	"custom/temp",
+         "bluetooth",
+        "network",
+        "power-profiles-daemon",
+      //  "backlight",
+  //      "battery#bat2",
+	"custom/notification",
+	"battery",
+        "clock",
+
+    ],
+    
+   
+}   
+   
+    
+
+    
+  
+
+    
+
+ 
+
+
+
+
+

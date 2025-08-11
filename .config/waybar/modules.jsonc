@@ -1,0 +1,168 @@
+{
+
+// Workspaces
+
+    "hyprland/workspaces" : {       
+        "on-click": "activate",
+        "active-only": false,
+        "all-outputs": true,
+        "format": "{}",
+        "format-icons": {
+            "urgent": "",
+            "active": "",
+            "default": ""
+        },
+        "persistent-workspaces": {
+            "*": 3
+        }       
+    },
+
+// Keyboard State
+
+"keyboard-state": {
+    "capslock": false,	
+    "numlock": true,
+    
+    "format": {
+        "capslock": "{icon}",   
+        "numlock": "{icon}",
+    },
+    "format-icons": {
+        "locked": "",
+        "unlocked": ""
+    }
+},
+
+// Clock
+
+    "clock": {
+        "timezone": "Asia/Kolkata",
+        "format": "{:%I:%M %p}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%a, %d %b}"
+    },
+    
+// Temperature
+
+    "temperature": {
+        // "thermal-zone": 2,
+        "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+        "critical-threshold": 80,
+        // "format-critical": "{temperatureC}°C {icon}",
+        "format": "{temperatureC}°C {icon}",
+        "format-icons": ["", "", ""]
+    },
+
+// Backlight 
+
+    "backlight": {
+        // "device": "acpi_video1",
+        "format": "{percent}% {icon}",
+        "format-icons": ["", "", "", "", "", "", "", "", ""]
+    },
+
+// Battery
+
+    "battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}  {capacity}% ",
+        "format-full": "{icon}  {capacity}%",
+        "format-charging": " {icon}  {capacity}% ",
+        "format-plugged": " {icon}  {capacity}%",
+        "format-alt": "{time} {icon}",
+        "format-icons": ["", "", "", "", ""]
+        
+    },
+
+// Power Profile
+
+    "battery#bat2": {
+        "bat": "BAT2"
+    },
+    "power-profiles-daemon": {
+      "format": "{icon}",
+      "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+      "tooltip": true,
+      "format-icons": {
+        "default": "",
+        "performance": "",
+        "balanced": "",
+        "power-saver": ""
+      }
+    },
+
+// Network
+
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "",
+        "format-ethernet": "",
+       "tooltip-format": "ip addr : {ipaddr}",
+        "format-linked": "",
+        "format-disconnected": "",
+      //  "format-alt": ""
+        "on-click": "~/.config/waybar/scripts/rofi-wifi-menu.sh",
+    },
+
+// Bluetooth
+
+        "bluetooth": {
+        "format-connected": " on",
+        "format": "! on",
+        "format-disabled": " off",
+        "format-off": "",
+        "interval": 30,
+        "on-click": "blueman-manager",
+        "format-no-controller": ""
+    },
+  
+// Power Menu
+
+    "custom/exit": {
+        "format": "ち",
+        "on-click": "wlogout",
+        "tooltip-format": "Power Menu"
+    },
+    
+// Custom Temperature
+
+      "custom/temp": {
+      "exec":"~/.config/waybar/scripts/temperature.sh",
+      "return-type": "json",
+      "interval": 10,
+      "format": " {}°C"
+},
+
+  "custom/notification": {
+    "tooltip": false,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": "<span foreground='red'><sup></sup></span>",
+      "none": "",
+      "dnd-notification": "<span foreground='red'><sup></sup></span>",
+      "dnd-none": "",
+      "inhibited-notification": "<span foreground='red'><sup></sup></span>",
+      "inhibited-none": "",
+      "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
+      "dnd-inhibited-none": ""
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+  
+  "custom/battery": {
+    "exec": "~/.config/waybar/scripts/check_battery.sh",   
+    "interval": 60,                        
+    "format": "{output}"                  
+}
+
+
+}    

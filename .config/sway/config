@@ -1,0 +1,20 @@
+bindsym Super+Left resize shrink width 10px
+bindsym Super+Right  resize grow  width 10px
+bindsym Super+Down  resize shrink height 10px
+bindsym Super+Up  resize grow  height 10px	
+bindsym Super+q exec alacritty
+
+bindsym Super+f floating toggle
+
+include ~/.config/sway/outputs
+
+for_window [class="nwg-displays"] floating enable
+
+
+include ~/.config/sway/workspaces
+
+
+bindsym Super+Shift+Left move left  10px
+bindsym Super+Shift+Right move right 10px
+bindsym Super+Shift+Up move up  10px
+bindsym Super+Shift+Down move down 10px

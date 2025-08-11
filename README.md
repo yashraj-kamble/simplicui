@@ -1,0 +1,2 @@
+# simplicui
+ hyprland dotfile

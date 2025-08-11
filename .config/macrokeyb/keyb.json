@@ -1,0 +1,8 @@
+[
+  {
+    "event_num": 9,
+    "device_path": "/dev/input/event9",
+    "device_name": "NOVATEK USB Keyboard",
+    "usb_port": "usb-0000:00:14.0-4/input0"
+  }
+]
