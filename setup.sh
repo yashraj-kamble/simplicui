@@ -19,10 +19,14 @@ echo "AUR Packege installation completed"
 
 echo "Coping config file..."
 cp -r -f ~/simplicui/.config/* ~/.config/
-cp -r -f ~/simplicui/.local/share/fonts/* ~/.local/share/fonts/
+cp -r -f ~/simplicui/.themes/* ~/.themes/
+cp -r -f ~/simplicui/.bashrc ~/.bashrc
+cp -r -f ~/simplicui/.local/share/* ~/.local/share/
+cp -r -f ~/simplicui/.local/bin/* ~/.local/bin/
 cp -r -f ~/simplicui/Documents/* ~/Documents/
 sudo cp -r -f ~/simplicui/etc/* /etc/
-sudo cp -r -f ~/simplicui/usr/share/rofi/themes/* /usr/share/rofi/themes
+sudo cp -r -f ~/simplicui/usr/lib/* /usr/lib/*
+sudo cp -r -f ~/simplicui/usr/share/* /usr/share/
 echo "Copy config file completed"
 
 

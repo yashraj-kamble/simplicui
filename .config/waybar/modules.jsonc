@@ -160,7 +160,7 @@
   
   "custom/battery": {
     "exec": "~/.config/waybar/scripts/check_battery.sh",   
-    "interval": 60,                        
+    "interval": 100,                        
     "format": "{output}"                  
 }
 
