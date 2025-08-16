@@ -6,8 +6,14 @@ sudo rm /opt/resolve/libs/_disabled/libglib-2.0.so*
 sudo rm /opt/resolve/libs/_disabled/libgio-2.0.so*
 sudo rm /opt/resolve/libs/_disabled/libgmodule-2.0.so*
 
+sudo /usr/bin/perl -pi -e 's/\x74\x11\xe8\x21\x23\x00\x00/\xeb\x11\xe8\x21\x23\x00\x00/g' /opt/resolve/bin/resolve
+
 # Wayland
 __GLX_VENDOR_LIBRARY_NAME=nvidia /opt/resolve/bin/resolve
 
 # X11
  __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia /opt/resolve/bin/resolve
+ 
+ 
+glu
+libxcrypt-compat
